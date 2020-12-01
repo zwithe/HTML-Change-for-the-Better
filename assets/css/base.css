@@ -45,10 +45,16 @@ p {
     margin: 10px;
 }
 
+form {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
 input,
 select,
 textarea {
-    width: 200px;
+    width: 100%;
 }
 
 section div,
