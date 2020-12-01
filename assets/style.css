@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav,
+.nav {
+    color: white;
+    background: linear-gradient(aqua, black);
+}
+
+nav ul,
+.nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li,
+.nav li {
+    display: inline;
+}
+
+nav a,
+.nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+main,
+.main {
+    background: linear-gradient(aqua, rgb(211, 25, 25));
+    margin: 0;
+    padding: 25px;
+}
+
+.btn1 {
+    color: green;
+    background-color: red;
+}
+
+.btn2 {
+    color: crimson;
+    background-color: aquamarine;
+}
+
+footer,
+.footer {
+    color: white;
+    background: linear-gradient(to top, aqua, black);
+    padding: 20px;
+}
+
+.flashy-text {
+    color: aqua;
+    animation: blink-animation 0.2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 0.2s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
