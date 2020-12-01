@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul,
+.nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li,
+.nav li {
+    display: inline;
+}
+
+nav a,
+.nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav img,
+.nav img {
+    float: left;
+    margin-bottom: 6px;
+}
+
+main,
+.main {
+    flex: 1 0 auto;
+    margin: 0;
+    padding: 25px 0;
+}
+
+p {
+    margin: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 200px;
+}
+
+section div,
+.section div {
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+footer,
+.footer {
+    flex-shrink: 0;
+    padding: 20px;
+}
